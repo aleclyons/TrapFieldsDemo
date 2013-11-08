@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="blockedips/list">
+        <put-attribute name="body" value="/WEB-INF/views/blockedips/list.jspx"/>
+    </definition>
+<definition extends="default" name="blockedips/show">
+        <put-attribute name="body" value="/WEB-INF/views/blockedips/show.jspx"/>
+    </definition>
+<definition extends="default" name="blockedips/create">
+        <put-attribute name="body" value="/WEB-INF/views/blockedips/create.jspx"/>
+    </definition>
+<definition extends="default" name="blockedips/update">
+        <put-attribute name="body" value="/WEB-INF/views/blockedips/update.jspx"/>
+    </definition>
+</tiles-definitions>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_bcsg_trapfields_domain_BlockedIp" items="${blockedips}" z="lysidNcFhv2ZlKorfBiMo/bDH4M=">
+        <table:table data="${blockedips}" id="l_com_bcsg_trapfields_domain_BlockedIp" path="/blockedips" z="iRNKMYC2q45iYstRAy1levAW04M=">
+            <table:column id="c_com_bcsg_trapfields_domain_BlockedIp_ipAddress" property="ipAddress" z="+02C+eDfP7L1TM6qzkh0ki8K02A="/>
+        </table:table>
+    </page:list>
+</div>

@@ -2,3 +2,18 @@
 project --topLevelPackage com.bcsg.trapfields --projectName TrapFieldsDemo --java 7 --packaging JAR
 // Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-04-19 12:08:51
 // Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-04-19 12:12:30
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-04-19 12:51:21
+jpa setup --database MYSQL --provider HIBERNATE 
+entity jpa --class ~.domain.BlockedIp
+test integration --entity ~.domain.BlockedIp
+perform tests
+perform tests
+perform tests
+perform tests
+web mvc setup 
+web mvc all --package ~.web
+web mvc controller --class ~.web.form
+web mvc controller --class ~.web.FormController
+web mvc controller --class ~.web.formController
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-04-22 11:14:20
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-04-22 16:45:53
